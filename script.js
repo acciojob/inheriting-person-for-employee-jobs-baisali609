@@ -19,10 +19,10 @@ function Employee extends Person {
 	}
 }
 
-const Person = new Person("Alice", 25);
-Person.greet();
-const Employee = new Employee("Alice", 25, "Manager");
-Employee.jobGreet();
+const person = new Person("Alice", 25);
+person.greet();
+const employee = new Employee("Alice", 25, "Manager");
+employee.jobGreet();
 
 // Do not change code below this line
 window.Person = Person;

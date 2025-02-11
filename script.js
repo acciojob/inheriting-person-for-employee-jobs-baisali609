@@ -1,5 +1,5 @@
 // complete this js code
-function Person{
+class Person{
 constructor(name, age){
 	this.name = name;
 	this.age = age;
@@ -9,7 +9,7 @@ constructor(name, age){
 	}
 }
 
-function Employee extends Person {
+class Employee extends Person {
 	constructor(name, age, jobTitle){
 		super(name,age);
 		this.jobtitle = jobTitle;
@@ -20,10 +20,10 @@ function Employee extends Person {
 	}
 }
 
-// const person = new Person("Alice", 25);
-Personerson.greet();
-// const employee = new Employee("Alice", 25, "Manager");
-Employee.jobGreet();
+const person = new Person("Alice", 25);
+person.greet();
+const employee = new Employee("Alice", 25, "Manager");
+employee.jobGreet();
 
 // Do not change code below this line
 window.Person = Person;

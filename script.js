@@ -1,5 +1,5 @@
 // complete this js code
-function Person
+function Person{
 constructor(name, age){
 	this.name = name;
 	this.age = age;
